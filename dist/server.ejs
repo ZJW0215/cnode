@@ -6,24 +6,24 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <%%- meta %>
+  <%- meta %>
 
-  <%%- title %>
-  <%%- link %>
+  <%- title %>
+  <%- link %>
 
-  <%%- style %>
+  <%- style %>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
   <link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.bootcss.com/simplemde/1.11.2/simplemde.min.css" />
 
   <style id="jss-server-side">
-    <%%- materialCss%>
+    <%- materialCss%>
   </style>
 </head>
 <body>
-  <div id="root"><%%- appString %></div>
+  <div id="root"><%- appString %></div>
   <script>
-    window.__INITIAL__STATE__= <%%- initialState%>
+    window.__INITIAL__STATE__= <%- initialState%>
   </script>
-</body>
+<script type="text/javascript" src="/public/manifest.f4be9fa92ac7c341a85d.js"></script><script type="text/javascript" src="/public/app.77bc7c29778095167fd7.js"></script><script type="text/javascript" src="/public/vendor.717102b71a997a5757f5.js"></script></body>
 </html>

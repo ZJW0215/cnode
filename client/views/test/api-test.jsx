@@ -15,7 +15,7 @@ export default class TestApi extends React.Component {
 
   login() {
     axios.post('/api/user/login', {
-      accessToken: '465f8425-caf7-4b45-9103-0df413e00d12'
+      accessToken: ''    /* 在cnode.js 中找到设置中的accesstoken 字符串 */
     })
       .then(resp => {
         console.log(resp)
